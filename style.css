@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%), url(The-Most-Expensive-Music-Instruments-Used-So-Far.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.nav{
+    width: 1200px;
+    float: left;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:antiquewhite;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 17px;
+    float: left;
+    padding-top: 10px;
+
+}
+.logo:hover{
+    text-shadow: 4px 4px 10px orange;
+    font-size: 33px;
+    transition: 0.2s ease;
+/* animation: blink infinite; */
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float:left;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+     
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-shadow: 2px 2px 5px orange;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+.srch{
+    width: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    padding: 10px;
+border-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    color: white;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.content .par{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+padding-left: 30px;
+margin-top: 10%;
+letter-spacing: 1px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    margin-left: 20px;
+    font-size: 18px;
+    border: none;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+
+}
+.cn:hover{
+    background-color: rgb(212, 139, 3);
+}
+.content span{
+    color: orange;
+}
+.form{
+    width: 250px;
+    height: 330px;
+    background-color:rgb(214, 211, 211);
+    position: absolute;
+    top: -20px;
+    left: 870px; 
+    border-radius: 10px;
+     padding: 25px;
+}
+ .form h2{
+    width: 220px;
+    height: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    /* background-color:; */
+    margin: 8px;
+    border-radius: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form button{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+   
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
